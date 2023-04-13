@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+
+	<title>Refugio11 al Rescate</title>
+</head>
+
+<body>
+	<div class="container-fluid contenedor-nav">
+		<div class="container ">
+			<div class="row align-items-center justify-content-center text-center">
+				<div class="col">
+					<nav class="navbar ">
+						<div class="container-fluid ">
+							<a class="navbar-brand" href="#">
+								<img src="imagenes/logo.png" width="100px" alt="Logo"
+									class="d-inline-block align-text-top">
+
+							</a>
+						</div>
+					</nav>
+				</div>
+				<div class="col d-flex justify-content-end">
+					<nav class="navbar navbar-expand-lg r">
+						<div class="container-fluid justify-content-start text-center">
+							<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+								data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+								aria-label="Toggle navigation">
+								<span class="navbar-toggler-icon"></span>
+							</button>
+							<div class="collapse navbar-collapse" id="navbarNav">
+								<ul class="navbar-nav">
+									<li class="nav-item">
+										<a class="nav-link active" aria-current="page" href="#">Home</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Features</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link" href="#">Pricing</a>
+									</li>
+									<li class="nav-item">
+										<a class="nav-link disabled">Disabled</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<div class="container-fluid d-flex baner1 text-center align-items-center justify-content-center ">
+		<div class="container">
+			<div class="row">
+				<h2>Dando amor, hogar y esperanza <br> a las mascotas necesitadas.</h2>
+			</div>
+
+		</div>
+	</div>
+	<div class="container-fluid d-flex  text-center align-items-center justify-content-center">
+		<div class="container">
+			<div class="row">
+				<p class="p-5">¡Bienvenidos a nuestro refugio! <br>
+					Somos una organización dedicada a ayudar a los animales necesitados.
+					Nuestro equipo está compuesto por <b>Federico Nuñez, Diego Coca,Leonel Ayslan y Juan
+						Pietrasanta</b>,
+					amantes de los animales, muy apasionados y comprometidos con brindarles el cuidado
+					y amor que merecen. Aquí en nuestro refugio, ofrecemos un hogar temporal seguro y amoroso para
+					mascotas que han
+					sido abandonadas, maltratadas o que se encuentran en situación de riesgo. Nuestra misión es
+					proporcionarles una
+					segunda oportunidad y encontrarles hogares permanentes a través de la adopción responsable. Cada
+					vida que salvamos
+					es especial y estamos orgullosos de hacer la diferencia en el bienestar de los animales. ¡Gracias
+					por ser parte de
+					nuestro esfuerzo por ayudar a los animales necesitados!</p>
+				<h2>Quienes somos</h2>
+				<p class="p-5">Somos un refugio de mascotas comprometido con el cuidado,
+					protección y bienestar de los animales mas necesitados.
+					Nuestra misión es brindar amor, atención y un hogar seguro a aquellos peludos que han sido
+					abandonados,
+					maltratados o están en situación de riesgo,
+					mientras promovemos la adopción responsable como una forma de cambiar vidas y
+					hacer del mundo un lugar mejor para nuestros amigos de cuatro patas.</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<h1>Formulario de Contacto</h1>
+		<form id="contactForm">
+			<div class="form-group">
+				<label for="nombre">Nombre: *</label>
+				<input type="text" class="form-control" id="nombre" name="nombre" >
+				<span class="error-nombre text-danger">Este campo es obligatorio</span>
+			</div>
+			<div class="form-group">
+				<label for="email">Correo Electrónico: *</label>
+				<input type="email" class="form-control" id="email" name="email" >
+				
+				<span class="error-email-valido text-danger">introduzca un mail valido</span>
+			</div>
+			<div class="form-group">
+				<label for="mensaje">Mensaje:</label>
+				<textarea class="form-control" id="mensaje" name="mensaje" ></textarea>
+				<span class="error-mensaje text-danger">Este campo es obligatorio</span>
+			</div>
+			<button type="submit" class="btn btn-primary mt-3" id="Enviar">Enviar</button>
+		</form>
+	</div>
+
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

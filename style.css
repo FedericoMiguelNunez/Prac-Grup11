@@ -1,0 +1,21 @@
+.baner1{
+    background-image: url("/imagenes/Banner-1.png");
+    width: 100vw;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+     }
+	 
+@media screen and (max-width:800px) {
+    .baner1{
+        background-image: url("/imagenes/Banner-1-v2.png");
+        width: 100vw;
+        height: 500px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: bottom;
+        background-attachment: fixed;
+         }
+}
