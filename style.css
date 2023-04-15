@@ -1,21 +1,45 @@
-.baner1{
-    background-image: url("/imagenes/Banner-1.png");
-    width: 100vw;
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom;
-    background-attachment: fixed;
-     }
-	 
+.baner1 {
+   background-image: url("/imagenes/Banner-1.png");
+   width: 100vw;
+   height: 500px;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: bottom;
+   background-attachment: fixed;
+}
+
+select {
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   background-color: #f0850ba9;
+   color: white;
+   border-radius: 4px;
+   width: 100%;
+   max-width: 100px;
+}
+
+select option {
+   padding: 8px;
+}
+
+.asm3-adoptable-thumbnail {
+   border-radius: 8px;
+}
+
+#map {
+   width: 80vw;
+   height: 300px;
+}
+
 @media screen and (max-width:800px) {
-    .baner1{
-        background-image: url("/imagenes/Banner-1-v2.png");
-        width: 100vw;
-        height: 500px;
-        background-size: cover;
-        background-repeat: no-repeat;
-        background-position: bottom;
-        background-attachment: fixed;
-         }
+   .baner1 {
+      background-image: url("/imagenes/Banner-1-v2.png");
+      width: 100vw;
+      height: 500px;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: bottom;
+      background-attachment: fixed;
+   }
 }

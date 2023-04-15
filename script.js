@@ -34,3 +34,22 @@ $(document).ready(() => {
     // $("#contactForm").get(0).submit();
    
 })
+$(document).ready(()=>{
+    $("#form").on("submit",(event)=>{
+        event.preventDefault();
+        let donativo = $("#donacion").val();
+        console.log("se dono $"+ donativo);
+    })
+})
+
+function initMap(){
+    var coord = {lat:-34.6246874 ,lng: -58.5059093};
+    var map = new google.maps.Map(document.getElementById('map'),{
+      zoom: 15,
+      center: coord
+    });
+    var marker = new google.maps.Marker({
+      position: coord,
+      map: map
+    });
+}
