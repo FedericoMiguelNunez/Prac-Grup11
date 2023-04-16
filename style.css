@@ -1,3 +1,28 @@
+body{
+   margin-top: 131px;
+   background-color: #f2f4f3;
+}
+.contenedor-nav{
+   background-color: #f2f4f3; 
+   font-family: 'Signika Negative', sans-serif;
+}
+select {
+   padding: 10px;
+   font-size: 16px;
+   border-color: #1b1b1b;
+   border-width: 2px;
+   background-color: #ff8c00;
+   color: #f2f4f3;
+   border-radius: 4px;
+   width: 100%;
+   max-width: 100px;
+}
+.boton-donar{
+   background-color: #ff8c00;
+   margin-left: 0px;
+   border-color: #1b1b1b;
+   border-width: 2px;
+}
 .baner1 {
    background-image: url("/imagenes/Banner-1.png");
    width: 100vw;
@@ -7,17 +32,16 @@
    background-position: bottom;
    background-attachment: fixed;
 }
-
-select {
-   padding: 10px;
-   font-size: 16px;
-   border: none;
-   background-color: #f0850ba9;
-   color: white;
-   border-radius: 4px;
-   width: 100%;
-   max-width: 100px;
+.bienvenidos{
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 18px;
 }
+.quienes-soms{
+   background-color: #eae2b7;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-size: 18px;
+}
+
 
 select option {
    padding: 8px;
@@ -26,12 +50,38 @@ select option {
 .asm3-adoptable-thumbnail {
    border-radius: 8px;
 }
+.formulario{
+   background-color: #eae2b7 !important;
+   font-family: 'Roboto Condensed', sans-serif;
+}
+#Enviar{
+   background-color: #ff8c00;
+   border-color: #1b1b1b !important;
+   border-width: 2px !important;
+}
+#formAdopcion{
+   font-family:'Roboto Condensed', sans-serif ;
+}
+.prevBtn , .nextBtn{
+   background-color: #ff8c00;
+   border-color: #1b1b1b !important;
+   border-width: 2px !important;
+}
+#map-e{
+   font-family: 'Signika Negative', sans-serif;
 
+}
 #map {
    width: 80vw;
    height: 300px;
 }
-
+#pie{
+   background-color: #1b1b1b;
+}
+.f-cont , .a-whatsp , .Copyright , .bootstrap{
+   color: #f2f4f3;
+   font-family: 'Signika Negative', sans-serif;
+}
 @media screen and (max-width:800px) {
    .baner1 {
       background-image: url("/imagenes/Banner-1-v2.png");
